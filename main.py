@@ -29,10 +29,8 @@ def main():
     heuristics = [\
         soccer.PositionPreferenceHeuristic({\
             'Asher': soccer.PositionPreference({'defender': 1, 'forward': -1, 'goalie': -1}),\
-            'Timothy': soccer.PositionPreference({'goalie': 5}),\
             'Jacob': soccer.PositionPreference({'forward': 1}),\
-            'Zeke': soccer.PositionPreference({'defender': -1, 'goalie': -1}),\
-            'Peter': soccer.PositionPreference({'defender': 1, 'goalie': 5}),\
+            'Zeke': soccer.PositionPreference({'defender': -1, 'goalie': 5}),\
             'Aiden': soccer.PositionPreference({'defender': 1}),\
             'Cyrus': soccer.PositionPreference({'defender': -1, 'goalie': -1}),\
             'Marc': soccer.PositionPreference({'defender': 1}),\
